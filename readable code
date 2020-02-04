@@ -7,4 +7,8 @@ Ch２　名前に情報を詰め込む
       2.5名前の長さを決める　ConvertToString → ToString
       2.6大文字やアンダースコアなどに意味を含める　stats_(_はlocal変数)
 Ch３　誤解されない名前：「他の意味と間違えられることはないだろうか？」
+      3.1選択する？除外する？　filter() → select(), exclude()
+      3.2削除する？切り詰める？　Clip(text, length) → Remove(text, length), Truncat(text, length)
+      3.3限界値を含めるか？　CART_TOO_BIG_LIMIT = 10 → MAX_ITEMS_IN_CART = 10
+      
       
