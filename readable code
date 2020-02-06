@@ -10,5 +10,6 @@ Ch３　誤解されない名前：「他の意味と間違えられることは
       3.1選択する？除外する？　filter() → select(), exclude()
       3.2削除する？切り詰める？　Clip(text, length) → Remove(text, length), Truncat(text, length)
       3.3限界値を含めるか？　CART_TOO_BIG_LIMIT = 10 → MAX_ITEMS_IN_CART = 10
-      
-      
+      3.4範囲を指定する時　rang(start=2, stop=4) → rang(first=2, last=4)
+      3.5
+      3.6bool値の名前　SpaceLeft() → HasSpaceLeft()
