@@ -1,0 +1,2 @@
+# find null in dataframe
+df[df.isnull().values==True]
