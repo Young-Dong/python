@@ -9,7 +9,11 @@ Ch２　名前に情報を詰め込む
 Ch３　誤解されない名前：「他の意味と間違えられることはないだろうか？」
       3.1選択する？除外する？　filter() → select(), exclude()
       3.2削除する？切り詰める？　Clip(text, length) → Remove(text, length), Truncat(text, length)
-      3.3限界値を含めるか？　CART_TOO_BIG_LIMIT = 10 → MAX_ITEMS_IN_CART = 10
-      3.4範囲を指定する時　rang(start=2, stop=4) → rang(first=2, last=4)
-      3.5
+      3.3限界値を含める時はminとmaxを使う　CART_TOO_BIG_LIMIT = 10 → MAX_ITEMS_IN_CART = 10
+      3.4範囲を指定する時はfisrtとlastを使う　rang(start=2, stop=4) → rang(first=2, last=4)
+      3.5包含/排他的範囲にはbeginとendを使う　
       3.6bool値の名前　SpaceLeft() → HasSpaceLeft()
+      3.7userの期待に合わせる　「軽量アクセサ」getMean() → 「大量アクセサ」computeMean()
+      3.8複数の名前を検討する　「プロトタイプ継承」 the_other_experiment_id_I_want_to_resuse → copy_experiment
+      3.9最善の名前は誤解されない名前である
+Ch４　美しさ
