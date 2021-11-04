@@ -3,3 +3,7 @@ df[df.isnull().values==True]
 
 # show all columns
 pd.set_option('display.max_columns', None)
+
+# create lots of functions
+for i in range(n):
+  locals()['df_' + str(i)] = ...
